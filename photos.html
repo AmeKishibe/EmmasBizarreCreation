@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style/stylePhotos.css">
+        <title>Emma's Bizarre Creations</title>
+    </head>
+    
+    
+<body>
+    
+    
+    <header>
+            <a href="Htmlpage1.html"><img src="images/logo1.png" alt="MonLogo" ></a>
+            <a href="dessins.html">DESSINS</a>
+            <a href="photos.html">PHOTOGRAPHIES</a>
+            <a href="projets.html">PROJETS</a>
+    </header>
+     <h2>MES PHOTOGRAPHIES</h2>
+    <div class="PrezPhotos">
+        <p>J'utilise l'appareil photo Nikon Jsp quoi. </p>
+    </div>
+
+    <div class="ColPhotosGauche">
+        <button id="toggle1" title="Click to Show"  type="button"><img src="images/photo1.JPG" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+        <button id="toggle2" title="Click to Show"  type="button"><img src="images/photo2.png" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        <div id="spoiler1" class="hidden">
+            <p>Pour la réalisation d'un blog sur les statues dans le cadre de notre formation, j'ai dû photographier quelques statues. Celle-ci surplombe la place des <b>Quinconces à Bordeaux</b>.</p>
+        </div>
+        <div id="spoiler2" class="hidden">
+            <p> J’ai pris en photo ce <b>lière</b> lors d’une escapade dans la <b>forêt des Landes</b> avec mes amis, je l’ai retouché pour donner une couleur plus sombre et un <b>vert plus profond</b>.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="ColPhotosDroite">
+        
+        <div id="spoiler3" class="hidden">
+            <p> Pendant cette même escapade, j’ai pu prendre en photo cette <b>chenille processionnaire</b>, celle-ci était en marge de son groupe. </p>
+        </div>
+        <div id="spoiler4" class="hidden">
+            <p> Cette photographie a été réalisée pour le projet d’une semaine photo dont le thème est la <b>cybercriminalité ou le cyber harcèlement</b>. Ici, le langage binaire représente les données personnelles, le revolver montre qu’on peut en faire une <b>utilisation malveillante</b>. </p>
+        </div>
+        <button id="toggle3" title="Click to Show"  type="button"><img src="images/photo3.png" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+        <button id="toggle4" title="Click to Show"  type="button"><img src="images/photo4.jpg" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+
+    </div>
+
+    <div class="ColPhotosGauche">
+        <button id="toggle5" title="Click to Show"  type="button"><img src="images/photo5.jpg" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+        <button id="toggle6" title="Click to Show"  type="button"><img src="images/photo6.jpg" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        <div id="spoiler5" class="hidden">
+            <p> Le modèle est Louis Lasserre, un camarade de classe, toujours dans la cadre de la semaine cyber, j’ai dû le photographier en tant que victime de cyber harcèlement. </p>
+        </div>
+        <div id="spoiler6" class="hidden">
+            <p> Toujours dans le même thème, cette photo montre un jeune homme en train de jouer aux jeux vidéos. Son jeu étant en ligne, il peut être sujet à du cyber harcèlement. </p>
+        </div>
+
+    </div>
+
+
+    <div class="ColPhotosDroite">
+        <div id="spoiler7" class="hidden">
+            <p> Voici <b>Mattéo Lambert</b>, un autre camarade de classe, son portrait à été réalisé dans l’enceinte de l’IUT Bordeaux Montaigne
+            </p>
+        </div>
+        <div id="spoiler8" class="hidden">
+            <p> Dans l’IUT je voulais absolument exploiter la végétation mise à notre disposition, j’ai donc demandé à Mattéo de se mettre derrière une des plantes pour faire un effet jungle. </p>
+        </div>
+        <button id="toggle7" title="Click to Show"  type="button"><img src="images/photo7.png" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+        <button id="toggle8" title="Click to Show"  type="button"><img src="images/photo8.png" alt="Personnage imaginé par Jason Nago" width="353" height="310"></button>
+        
+
+    </div>
+
+
+    <footer>
+        <a href="https://www.instagram.com/ame_kishibe/"><img src="images/LogoInsta.png" alt="Lien vers page insta dessin" width="50" height="50"></a>
+        <a href="https://www.linkedin.com/in/emma-guillaume-7122a6202"><img src="images/LogoLinkedin.png" alt="Lien vers page linkedin" width="50" height="50"></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src="images/LogoCV.png" alt="Lien vers page CV" width="50" height="50"></a>
+        <a href="https://www.youtube.com/channel/UCJtcMcutzOAkMjju4dYYwgg"><img src="images/LogoYtb.png" alt="Lien vers page youtube" width="50" height="50"></a>
+        
+    </footer>
+    <div class="footerb">
+        <a href="Htmlpage1.html">Revenir au menu</a>
+        <p> Ce site a été developpé par Emma Guillaume en 2022</p>
+    </div>
+
+
+    <script>
+        var isAnSpoilerVisible = false; // deviendra le spoiler visible
+        var spoilers = [
+            document.getElementById('spoiler1'),
+            document.getElementById('spoiler2'),
+            document.getElementById('spoiler3'),
+            document.getElementById('spoiler4'),
+            document.getElementById('spoiler5'),
+            document.getElementById('spoiler6'),
+            document.getElementById('spoiler7'),
+            document.getElementById('spoiler8'),
+            
+        ];
+        var toggleBtn = [
+            document.getElementById('toggle1'),
+            document.getElementById('toggle2'),
+            document.getElementById('toggle3'),
+            document.getElementById('toggle4'),
+            document.getElementById('toggle5'),
+            document.getElementById('toggle6'),
+            document.getElementById('toggle7'),
+            document.getElementById('toggle8'),
+            
+        ];
+
+        for(let i=0; i<spoilers.length;i++) {
+            toggleBtn[i].addEventListener('click', function() {
+                if(spoilers[i].classList.contains('hidden')) {
+                    if(isAnSpoilerVisible) {
+                        isAnSpoilerVisible.classList.add('hidden');
+                    }
+                    spoilers[i].classList.remove('hidden');
+                    isAnSpoilerVisible = spoilers[i];
+                } else {
+                    spoilers[i].classList.add('hidden');
+                    isAnSpoilerVisible = false;
+                }
+            })
+        }
+    </script>
+    
+</body>
+</html>

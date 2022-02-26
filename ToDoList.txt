@@ -1,0 +1,12 @@
+Design; 
+Comment emplacement autres pages ; photos, dessins, projet --> FIGMA
+
+
+Code: 
+Lier les différentes pages HTML entre elles --> include denier 
+Revoir GitHub comment poster son code
+Diff catégorie dessins photos et projet 
+
+Faire le responsive du site 
+
+

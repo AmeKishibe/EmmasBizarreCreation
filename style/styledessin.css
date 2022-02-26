@@ -1,0 +1,127 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Krub';
+    font-size: 25px;
+    z-index: 3;
+    background-color: white;
+    padding: 10px;
+}
+body {
+    color:rgb(0, 0, 0);
+    background-image:url("FondDessin.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.PrezDessins{
+    margin-left: 9%;
+    margin-right: 9%;
+    font-family: 'Krub';
+    font-size: 25px;
+    color: white;
+}
+
+.ColDessinsGauche{ 
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3%;
+}
+.ColDessinsGauche p{ 
+    font-family: 'Krub';
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.ColdessinsDroite{ 
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ColdessinsDroite p{ 
+    font-family: 'Krub';
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h2{
+    text-align: left;
+    margin-top: 7%;
+    margin-left: 9%;
+    font-family: 'Krub';
+    font-size: 30px;
+    color: white;
+}
+
+.clickText{
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.spoiler{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hidden {display:none;}
+
+button{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+    border: none;
+    transition-duration: 0.4s;
+    background-color:white;
+
+}
+b{
+    color: #8BCE65;
+}
+button:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+    transition-duration: 0.4s;
+}
+
+
+
+  footer{
+    margin-top: 15%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerb{
+    display: flex;
+    font-family: 'Krub';
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 3%;
+    justify-content: center;
+
+}
+
+.mamoruClass{
+   font-weight: lighter !important; 
+}
