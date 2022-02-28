@@ -38,6 +38,7 @@ header {
 a{
     text-decoration: none;
     color: black;
+    
 }
 
 .ButtonVoirPlus{
@@ -51,9 +52,15 @@ a{
     transition-duration: 0.4s;
 }
 
+.ButtonVoirPlus a{
+    transition-duration: 0.4s;
+}
+
+
 .ButtonVoirPlus :hover{
     font-size: 23px;
     transition-duration: 0.4s;
+    
 }
 
 body {
@@ -87,8 +94,9 @@ body {
     background-color: white;
 }
 .ScrollPortfolio{
-    margin-top: 8%;
-    text-align: center;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
     font-family: 'Krub Light';
     font-size: 15px;
     scroll-behavior: auto;
@@ -96,7 +104,7 @@ body {
 }
 
 .ScrollPortfolio :hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h2{

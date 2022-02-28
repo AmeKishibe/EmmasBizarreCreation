@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Krub';
+    src: url('/style/Fonts/Krub-Regular.ttf');
+}
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('/style/Fonts/AbrilFatface-Regular.ttf');
+}
+@font-face {
+    font-family: 'Krub Light';
+    src: url('/style/Fonts/Krub-Light.ttf');
+}
+
+
+
 header{
     display: flex;
     align-items: center;
