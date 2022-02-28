@@ -61,6 +61,7 @@ body {
     background-image:url("Fond.png");
     background-size:100%;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .Prez{
