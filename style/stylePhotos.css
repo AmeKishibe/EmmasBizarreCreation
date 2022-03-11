@@ -55,6 +55,7 @@ a{
     flex-direction: row;
     align-items: center;
     margin-left: 3%;
+    cursor: pointer;
 }
 .ColPhotosGauche p{ 
     font-family: 'Krub';
@@ -74,6 +75,7 @@ a{
     font-family: 'Krub';
     margin-left: 15%;
     margin-right: 15%;
+    cursor: pointer;
 }
 h2{
     text-align: left;

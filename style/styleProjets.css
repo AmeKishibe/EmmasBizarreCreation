@@ -94,6 +94,7 @@ figcaption{
     font-family: 'Krub';
     margin-left: 15%;
     margin-right: 15%;
+    cursor: pointer;
 }
 
 .ColProjetsDroite{ 
@@ -102,6 +103,7 @@ figcaption{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    cursor: pointer;
 }
 .ColProjetsDroite p{ 
     font-family: 'Krub';
