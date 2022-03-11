@@ -136,6 +136,7 @@ button{
     background-color:white;
     font-family: 'Krub';
     font-size: 16px;
+    cursor: pointer;
 
 }
 
