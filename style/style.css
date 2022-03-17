@@ -17,29 +17,29 @@ html {
 
 
 
-  .header {
+  header {
+    display: flex;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 20px 10px;
+    padding: 10px;
     right: 0%;
+    justify-content: space-between;
   }
   
   /* Style the header links */
-  header a {
+  header .header-right{
     float: left;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    font-family: 'AbrilFatface-Regular';
+    font-family: 'AbrilFatface';
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   header .logo {
     width: 100% !important; 
+    padding: 12px;
   }
 
   
@@ -49,10 +49,6 @@ html {
     color: white;
   }
   
-  /* Float the link section to the right */
-  header-right {
-    float: right;
-  }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
@@ -72,7 +68,7 @@ html {
 
 header {
     background-color: white;
-    padding: 10px;
+    
 }
 
 a{
