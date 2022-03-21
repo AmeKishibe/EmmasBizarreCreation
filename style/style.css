@@ -16,7 +16,6 @@ html {
 }
 
 
-
 header {
     z-index: 5;
     margin-top: 0;
@@ -27,12 +26,12 @@ header {
     font-family: 'Krub';
     font-weight: bold;
     font-size: 25px;
-    white-space: normal; /*cense etre un retour a la ligne lorsque la largeur est trop faible*/
     width: 100%;
     position: fixed;
 
 }
-  
+ 
+
 
 header .header-right{
     display: flex;
@@ -52,16 +51,6 @@ header a{
      color: black;
 }
   
-@media screen and (min-width: 390px) and (max-width: 540px) {
-    header{
-        white-space:normal;
-        display: flex;
-        justify-content: left;
-    text-align: left;
-    
-    }
-    
-  }
 
 
 .ButtonVoirPlus{
@@ -85,6 +74,9 @@ header a{
 .ButtonVoirPlus :hover{
     font-size: 23px;
     transition-duration: 0.4s;
+    border-radius: 8px;
+    background-color: rgb(255, 174, 0) ;
+    padding : 10px 24px;
     
 }
 
@@ -158,14 +150,18 @@ h2{
     margin-top: 10%;
     padding-left: 5%;
     font-size: 30px;
+    color: #FE54B4;
 }
 .CategorieProjet{
     font-family: 'Abril Fatface';
     text-align: left;
     font-size: 30px;
+    color: #4700FF;
+    
 }
 
-.DESSINS{
+
+.DESSINS {
     margin-top: 5%;
     display:flex;
     width: 100%;
@@ -173,7 +169,9 @@ h2{
 
 }
 
-
+.DESSINS img :hover{
+    border-radius: 8px;
+}
 
 
 .classdutexte {
@@ -213,6 +211,7 @@ h2{
     font-family: 'Abril Fatface';
     text-align: left;
     font-size: 30px;
+    color: #00D34B;
 }
 .DescriptionProjets{
     margin-left: 7%;
@@ -236,7 +235,13 @@ footer{
     align-items: center;
     margin-bottom: 3%;
     justify-content: space-evenly;
+    
 
+}
+
+.footerb a{
+    text-decoration: none;
+    color: black;
 }
 
 iframe{
