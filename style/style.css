@@ -18,6 +18,8 @@ html {
 
 
 header {
+    z-index: 5;
+    margin-top: 0;
     display: flex;
     background-color: white;
     padding: 0.5px;
@@ -26,6 +28,9 @@ header {
     font-weight: bold;
     font-size: 25px;
     white-space: normal; /*cense etre un retour a la ligne lorsque la largeur est trop faible*/
+    width: 100%;
+    position: fixed;
+
 }
   
 
@@ -72,6 +77,8 @@ header a{
 
 .ButtonVoirPlus a{
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -83,12 +90,23 @@ header a{
 
 body {
     color:rgb(0, 0, 0);
+    background-color: white;
+    margin: 0;
+
+}
+
+.home {
+    display: block;
     background-image:url("Fond.png");
     background-size: cover;
-    background-position: center center;
+    background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin: 0;
+    width: 100%;
+    height: 712px;
+   
+    
+
 }
 
 .Prez{
